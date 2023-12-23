@@ -7,18 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C67AE272B36DC6F005AAA11 /* BerryLiteDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C67AE262B36DC6F005AAA11 /* BerryLiteDemoApp.swift */; };
 		0C67AE292B36DC6F005AAA11 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C67AE282B36DC6F005AAA11 /* ContentView.swift */; };
 		0C67AE2B2B36DC71005AAA11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C67AE2A2B36DC71005AAA11 /* Assets.xcassets */; };
 		0C67AE2E2B36DC71005AAA11 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C67AE2D2B36DC71005AAA11 /* Preview Assets.xcassets */; };
+		0C67AE352B36DCEC005AAA11 /* BerryLite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C67AE342B36DCEC005AAA11 /* BerryLite.swift */; };
+		0C67AE392B36DD59005AAA11 /* BerryLiteDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C67AE382B36DD59005AAA11 /* BerryLiteDemoApp.swift */; };
+		0C67AE3B2B36DD6F005AAA11 /* ModelHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C67AE3A2B36DD6F005AAA11 /* ModelHandler.swift */; };
+		0C67AE3D2B36DD73005AAA11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C67AE3C2B36DD73005AAA11 /* ViewController.swift */; };
+		0C67AE402B36DD8A005AAA11 /* BerryLiteCxx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C67AE3F2B36DD8A005AAA11 /* BerryLiteCxx.framework */; };
+		0C67AE412B36DD8A005AAA11 /* BerryLiteCxx.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0C67AE3F2B36DD8A005AAA11 /* BerryLiteCxx.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0C67AE462B36E524005AAA11 /* CGSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C67AE452B36E524005AAA11 /* CGSize.swift */; };
+		0C67AE482B36E546005AAA11 /* CVPixelBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C67AE472B36E546005AAA11 /* CVPixelBuffer.swift */; };
+		0C67AE4A2B36E6FD005AAA11 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C67AE492B36E6FD005AAA11 /* Data.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0C67AE422B36DD8A005AAA11 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0C67AE412B36DD8A005AAA11 /* BerryLiteCxx.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0C67AE232B36DC6F005AAA11 /* BerryLiteDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BerryLiteDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0C67AE262B36DC6F005AAA11 /* BerryLiteDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BerryLiteDemoApp.swift; sourceTree = "<group>"; };
 		0C67AE282B36DC6F005AAA11 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0C67AE2A2B36DC71005AAA11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C67AE2D2B36DC71005AAA11 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0C67AE342B36DCEC005AAA11 /* BerryLite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BerryLite.swift; sourceTree = "<group>"; };
+		0C67AE382B36DD59005AAA11 /* BerryLiteDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BerryLiteDemoApp.swift; sourceTree = "<group>"; };
+		0C67AE3A2B36DD6F005AAA11 /* ModelHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelHandler.swift; sourceTree = "<group>"; };
+		0C67AE3C2B36DD73005AAA11 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0C67AE3F2B36DD8A005AAA11 /* BerryLiteCxx.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BerryLiteCxx.framework; path = Frameworks/BerryLiteCxx.framework; sourceTree = "<group>"; };
+		0C67AE432B36DDC4005AAA11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0C67AE452B36E524005AAA11 /* CGSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGSize.swift; sourceTree = "<group>"; };
+		0C67AE472B36E546005AAA11 /* CVPixelBuffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVPixelBuffer.swift; sourceTree = "<group>"; };
+		0C67AE492B36E6FD005AAA11 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C67AE402B36DD8A005AAA11 /* BerryLiteCxx.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,8 +66,10 @@
 		0C67AE1A2B36DC6F005AAA11 = {
 			isa = PBXGroup;
 			children = (
+				0C67AE442B36E4E1005AAA11 /* Extentions */,
 				0C67AE252B36DC6F005AAA11 /* BerryLiteDemo */,
 				0C67AE242B36DC6F005AAA11 /* Products */,
+				0C67AE3E2B36DD8A005AAA11 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,8 +84,12 @@
 		0C67AE252B36DC6F005AAA11 /* BerryLiteDemo */ = {
 			isa = PBXGroup;
 			children = (
-				0C67AE262B36DC6F005AAA11 /* BerryLiteDemoApp.swift */,
+				0C67AE432B36DDC4005AAA11 /* Info.plist */,
+				0C67AE342B36DCEC005AAA11 /* BerryLite.swift */,
+				0C67AE382B36DD59005AAA11 /* BerryLiteDemoApp.swift */,
 				0C67AE282B36DC6F005AAA11 /* ContentView.swift */,
+				0C67AE3A2B36DD6F005AAA11 /* ModelHandler.swift */,
+				0C67AE3C2B36DD73005AAA11 /* ViewController.swift */,
 				0C67AE2A2B36DC71005AAA11 /* Assets.xcassets */,
 				0C67AE2C2B36DC71005AAA11 /* Preview Content */,
 			);
@@ -67,6 +104,24 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		0C67AE3E2B36DD8A005AAA11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C67AE3F2B36DD8A005AAA11 /* BerryLiteCxx.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0C67AE442B36E4E1005AAA11 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				0C67AE452B36E524005AAA11 /* CGSize.swift */,
+				0C67AE472B36E546005AAA11 /* CVPixelBuffer.swift */,
+				0C67AE492B36E6FD005AAA11 /* Data.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,6 +132,7 @@
 				0C67AE1F2B36DC6F005AAA11 /* Sources */,
 				0C67AE202B36DC6F005AAA11 /* Frameworks */,
 				0C67AE212B36DC6F005AAA11 /* Resources */,
+				0C67AE422B36DD8A005AAA11 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -137,8 +193,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C67AE3D2B36DD73005AAA11 /* ViewController.swift in Sources */,
+				0C67AE3B2B36DD6F005AAA11 /* ModelHandler.swift in Sources */,
+				0C67AE392B36DD59005AAA11 /* BerryLiteDemoApp.swift in Sources */,
 				0C67AE292B36DC6F005AAA11 /* ContentView.swift in Sources */,
-				0C67AE272B36DC6F005AAA11 /* BerryLiteDemoApp.swift in Sources */,
+				0C67AE482B36E546005AAA11 /* CVPixelBuffer.swift in Sources */,
+				0C67AE462B36E524005AAA11 /* CGSize.swift in Sources */,
+				0C67AE352B36DCEC005AAA11 /* BerryLite.swift in Sources */,
+				0C67AE4A2B36E6FD005AAA11 /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,6 +266,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OBJC_INTEROP_MODE = objcxx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -260,6 +323,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_INTEROP_MODE = objcxx;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -274,12 +338,19 @@
 				DEVELOPMENT_ASSET_PATHS = "\"BerryLiteDemo/Preview Content\"";
 				DEVELOPMENT_TEAM = 7ZG6U8KG99;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BerryLiteDemo/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "App uses camera output";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -288,6 +359,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = mac.zzz.BerryLiteDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_INTEROP_MODE = objcxx;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -303,12 +375,19 @@
 				DEVELOPMENT_ASSET_PATHS = "\"BerryLiteDemo/Preview Content\"";
 				DEVELOPMENT_TEAM = 7ZG6U8KG99;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BerryLiteDemo/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "App uses camera output";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -317,6 +396,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = mac.zzz.BerryLiteDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_INTEROP_MODE = objcxx;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

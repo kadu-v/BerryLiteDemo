@@ -1,0 +1,8 @@
+framework module BerryLiteCxx {
+  umbrella header "BerryLiteCxx.h"
+  export *
+  module * { export * }
+  link "dl"
+  link "m"
+  link "pthread"
+}
